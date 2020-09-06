@@ -1,0 +1,30 @@
+{
+	"name": "svelete-starter",
+	"version": "1.0.0",
+	"description": "svelete-starter web site app ",
+	"main": "index.js",
+	"author": "Bam Azizi",
+	"license": "UNLICENSED",
+	"private": true,
+	"scripts": {
+		"start": "parcel ./src/index.html --port 9898"
+	},
+	"devDependencies": {
+		"@fullhuman/postcss-purgecss": "^2.3.0",
+		"@tsconfig/svelte": "^1.0.8",
+		"autoprefixer": "^9.8.6",
+		"eslint": "^7.6.0",
+		"eslint-plugin-svelte3": "^2.7.3",
+		"parcel-bundler": "^1.12.4",
+		"parcel-plugin-svelte": "^4.0.6",
+		"postcss": "^7.0.32",
+		"prettier": "^2.0.5",
+		"prettier-plugin-svelte": "^1.1.0",
+		"sapper": "^0.28.0",
+		"svelte": "^3.24.1",
+		"svelte-preprocess": "^4.0.10",
+		"tailwindcss": "^1.6.2",
+		"tailwindcss-font-inter": "^1.0.8",
+		"typescript": "^3.9.7"
+	}
+}
